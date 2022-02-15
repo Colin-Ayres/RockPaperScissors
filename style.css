@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(31, 27, 27);
+  }
+
+.content{
+    color: rgb(201, 224, 217);
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.rockButton {
+    background-color: #b8877e; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 50px;
+    margin-top: 12%;
+  }
+
+.paperButton {
+    background-color: #c5c180; /* Green */
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 50px;
+    margin-top: 12%;
+  }
+
+  .scissorsButton {
+    background-color: #67abca; /* Green */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 50px;
+    margin-top: 12%;
+  }
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
